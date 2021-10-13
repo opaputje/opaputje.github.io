@@ -87,7 +87,10 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+.masthead-avatar{
+    height: 860px;
+    width: 1714;
+}
 hr {
   margin: 1rem 0;
   color: inherit;
