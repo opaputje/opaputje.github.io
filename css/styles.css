@@ -65,9 +65,7 @@
 
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -1420,7 +1418,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 80%;
   }
 
   .col-lg-5 {
@@ -1428,10 +1426,7 @@ progress {
     width: 41.66666667%;
   }
 
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
+  
 
   .col-lg-7 {
     flex: 0 0 auto;
@@ -11470,11 +11465,16 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 85%;
+  width: 70%;
   height: auto;
  
 }
-}
+
+.boxes {
+    flex: 0 0 auto;
+    position: relative;
+    top: 30px;
+  }
 
 @media (min-width: 992px) {
   .masthead {
